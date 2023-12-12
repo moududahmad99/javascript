@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interaction</title>
+</head>
+
+<body>
+  <h1>Interaction</h1>
+  <script>
+
+    // let age = prompt('What is your age?');
+    // alert(`your are ${age} old years`)
+
+    // let q = confirm('Are you a smoker?')
+    // alert(q)
+
+    // alert(121 % 75)
+
+    // alert('2'-'4')
+    // alert('A' > 'X')
+    // alert('2' == 2)
+
+    // let counter = 1;
+    // let a = counter++; // (*) changed ++counter to counter++
+
+    // a = ++counter
+
+    // let x = a
+    // alert(x);
+
+    const users = [
+      { username: "JohnDoe", age: 30 },
+      { username: "JaneDoe", age: 28 },
+      { username: "JaneDoe", age: 28 },
+      { username: "JaneDoe", age: 28 },
+      { username: "JaneDoe", age: 28 },
+      { username: "JaneDoe", age: 28 },
+      { username: "JaneDoe", age: 28 },
+    ];
+
+    // const userProfiles = users.map(({ username, age }) => ({
+    //   username,
+    //   age,
+    //   joined: new Date(),
+    // }));
+
+    const userProfiles = users.map(({ username, age }) => ({
+      username,
+      age,
+      joined: new Date(),
+    }))
+
+    console.log(userProfiles);
+
+
+    // Celsius to Fahrenheit
+    // const celsius = prompt('Enter Celsius to convert Fahrenheit:')
+    // const celToFah = (celsius * 9/5) + 32
+
+    // alert('Fahrenheit : ' + celToFah)
+
+    // Celsius to Fahrenheit
+    // const fahrenheit = prompt('Enter Fahrenheit to convert Celsius:')
+    // const fahToCel = (fahrenheit - 32 ) * 5/9
+
+    // alert('Celsius : ' + fahToCel)
+
+    // Check Even or Odd
+    // const evenOdd  = prompt('Enter a number to check Even or Odd:')
+
+    // if (evenOdd % 2 === 0) {
+    //   alert('Your Number is Even')
+    // } else {
+    //   alert('Your Number is Odd!')
+    // }
+
+    // Finding the largest number.
+    // const lNumbers = [45,66,99,456,654,6,464,6,468,46,46,646,46,4,]
+    // const fLargestN = Math.max(...lNumbers)
+
+    // console.log(fLargestN);
+
+  </script>
+
+  <button onclick="alert('Hi')">Hi</button>
+
+</body>
+
+</html>

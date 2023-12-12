@@ -12,7 +12,6 @@ const person = {
 }
 console.log(person);
 
-
 // Constructor Function
 console.log('Constructor Function:');
 
@@ -24,8 +23,6 @@ function PersonConstruct(fName, lName, age) {
 
 const personConstruct = new PersonConstruct('Sabbir', 'Ahmad', 20)
 console.log(personConstruct);
-
-
 
 // Class (ES6+)
 console.log('Class (ES6+):');
@@ -68,7 +65,13 @@ console.log(calc.addition(45, 55));
 console.log(calc.substract(45, 55));
 console.log(calc.mult(45, 55));
 
+const calcDiv = {
+    divition: function (a, b) {
+        return a / b
+    }
+}
 
+console.log(calcDiv.divition(50, 5));
 
 // Looping through Objects
 console.log('Looping through Objects:');
@@ -76,7 +79,6 @@ console.log('Looping through Objects:');
 for (const i in person) {
     console.log(i, person[i]);
 }
-
 
 // Object Methods and this:
 console.log('Object Methods and this: ');
@@ -91,7 +93,6 @@ const personThis = {
 
 console.log(personThis.fullN());
 
-
 // Computed Property Names (ES6+):
 console.log('Computed Property Names (ES6+):');
 
@@ -101,7 +102,6 @@ const personEs6 = {
     [ageStore]: 20
 }
 console.log(personEs6.age);
-
 
 // Object Prototypes and Inheritance
 console.log('Object Prototypes and Inheritance: ');
@@ -122,12 +122,10 @@ const nameStore = new fullName('Moudud', 'Ahmad');
 nameStore.prof();
 console.log(nameStore);
 
-
-
 // Functions as first-class citizens
 console.log('Functions as first-class citizens:');
 
-const passingFunc = function(name) {
+const passingFunc = function (name) {
     return `Hello ${name}`
 }
 

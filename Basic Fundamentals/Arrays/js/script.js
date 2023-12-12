@@ -20,7 +20,7 @@ console.log(numbers);
 numbers.pop()
 console.log(numbers);
 
-numbers.unshift('unshift') // Adding elements to  the first beginning
+numbers.unshift('unshift') // Adding elements to the first beginning
 console.log(numbers);
 
 

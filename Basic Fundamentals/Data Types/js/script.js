@@ -21,26 +21,25 @@ let uniqueSymbol = Symbol('description');
 // BigInt
 let bigIntValue = 1234567890123456789012345678901234567890n;
 
-
 // Reference Data Types:
 
 // Object
 let person = {
-    name: 'Sabbir',
-    age: 21
+  name: 'Sabbir',
+  age: 21
 }
 
 // Array
-let Persons = ['Mahek', 'Hamid']
+let Persons = ['Ayan', 'Hamid']
 
+// Function
 function greeting(name) {
-    console.log(`Hello ${name}`);
+  console.log(`Hello ${name}`);
 }
-greeting('Mrittika') // calling the function
+greeting('Dinosaur') // calling the function
 
 
 // Type Coercion
-
 let numStr = '42'
 let Type = Number(numStr)
 
@@ -51,14 +50,12 @@ console.log(Type + 10);
 let result = 10 / 'abc'; // NaN
 console.log(isNaN(result)); // Output: true
 
-
-
-console.log('Truthy and Falsy Values: ');
+console.log('Truthy and Falsy Values: ---------------------');
 let falsyValue = ''; // Falsy value
 let truthyValue = 'Hello'; // Truthy value
 
 if (falsyValue) {
-  console.log('Falsy');
+  console.log('Falsy'); // it won't show
 }
 
 if (truthyValue) {
