@@ -22,4 +22,3 @@ fetchD(processData)
 
 // Promises 
 console.log('Promises =>>');
-
