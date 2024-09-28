@@ -36,7 +36,7 @@ let Persons = ['Ayan', 'Hamid']
 function greeting(name) {
   console.log(`Hello ${name}`);
 }
-greeting('Dinosaur') // calling the function
+greeting('zyrex') // calling the function
 
 
 // Type Coercion

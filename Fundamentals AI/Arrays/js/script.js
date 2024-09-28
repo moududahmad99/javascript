@@ -1,5 +1,17 @@
+/*
+    Array : Javascript array is a data structure. that allows us to store multiple values in single variable.
+    it can hold various data types such strings, objects, numbers.
+
+    There are basically two ways to declare an array i.e. Array Literal and Array Constructor.
+
+*/
+
 // Creating Array
 let emptyArray = [];
+// let emptyArray = [];
+console.log(emptyArray);
+
+// Declaring an Array using literal
 let numbers = [1, 2, 3, 4, 5, 30];
 let subjects = ['Math', 'Chemistry', 'Physics'];
 
@@ -34,7 +46,13 @@ let fruits2 = ['Apple', 'grape'];
 let allFruits = fruits1.concat(fruits2)
 console.log(allFruits);
 
+// Declaring an Array using Constructor.
+let language = new Array(3)
 
+language[1] = 'Python'
+language[2] = 'Ruby'
+language[3] = 'Mern'
+console.log(language);
 
 // Iterating through Arrays
 

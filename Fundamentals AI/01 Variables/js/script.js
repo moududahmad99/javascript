@@ -30,8 +30,6 @@ function exampleScope() {
 
 console.log(exampleScope());
 
-
-
 // Variable Shadowing 
 
 var x = 10;

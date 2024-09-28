@@ -1,0 +1,12 @@
+Q. What are JavaScript data types?
+
+Primitive types: string, number, boolean, null, undefined, symbol, bigint
+
+Non-primitive type: object (which includes arrays, functions, etc.).
+
+Q. Explain what == and === do in JavaScript.
+
+== is the loose equality operator, which compares values after type coercion (e.g., 2 == '2' is true).
+
+=== is the strict equality operator, which compares both value and type without type conversion (e.g., 2 === '2' is false).
+
